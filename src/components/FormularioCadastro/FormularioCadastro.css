@@ -1,33 +1,33 @@
-.formulario-cadastro {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 1rem;
+.form-cadastro {
+    flex-grow: 2;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 12px 40px;
 }
 
-.formulario-cadastro-input {
-	width: 500px;
-	margin: 0.3rem;
-	padding: 6px;
-	border: none;
-	background-color: rgb(221, 221, 221);
-	font-weight: 100;
-	border-radius: 4px;
+.form-cadastro_input {
+    margin-top: 8px;
+    padding: 4px;
+    border: none;
+    background-color: var(--fundo-detalhes);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
-.formulario-cadastro-submit {
-	align-self: flex-end;
-	width: 20%;
-	color: white;
-	border-radius: 20px;
-	border: 0px;
-	background-color: #999;
+.form-cadastro_submit {
+    align-self: flex-end;
+    width: 30%;
+    background-color: var(--secundaria);
+    color: white;
+    font-weight: 400;
 }
 
-.formulario-cadastro-submit:active {
-	background-color: #777;
-}
-
+.form-cadastro_submit:active {
+    background-color: var(--secundaria-ativa);
+}/* 
 .formulario-cadastro-select {
 	width: 150px;
 	align-self: flex-start;
@@ -36,4 +36,4 @@
 	background-color: rgb(238, 202, 202);
 	margin: 0.3rem;
 	padding: 4px;
-}
+} */
