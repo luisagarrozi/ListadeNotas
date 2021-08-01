@@ -1,2 +1,2 @@
-import Listadenotas from "./Listadenotas"
-export default Listadenotas;
+import ListaDeNotas from "./ListaDeNotas"
+export default ListaDeNotas;
